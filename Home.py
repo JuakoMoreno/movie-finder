@@ -8,11 +8,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 st.title("Movie Finder")
-##st.header("header")
-##st.subheader("subheader")
-##st.caption("caption")
-##st.text("text")
-##st.divider()
 
 movieName = st.text_input("What movie do you want to watch?")
 if (movieName):
